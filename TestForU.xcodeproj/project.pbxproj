@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		1FAE7ABC1E64662A004B200E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE7ABB1E64662A004B200E /* main.m */; };
 		1FAE7ABF1E64662A004B200E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE7ABE1E64662A004B200E /* AppDelegate.m */; };
-		1FAE7AC21E64662A004B200E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE7AC11E64662A004B200E /* ViewController.m */; };
 		1FAE7AC51E64662A004B200E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAE7AC31E64662A004B200E /* Main.storyboard */; };
 		1FAE7AC71E64662A004B200E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAE7AC61E64662A004B200E /* Assets.xcassets */; };
 		1FAE7ACA1E64662A004B200E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAE7AC81E64662A004B200E /* LaunchScreen.storyboard */; };
+		1FAE7AD31E646710004B200E /* KFListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE7AD21E646710004B200E /* KFListViewController.m */; };
+		1FAE7AD91E64FAFF004B200E /* KFCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE7AD81E64FAFF004B200E /* KFCustomTableViewCell.m */; };
+		1FAE7ADC1E658606004B200E /* KFMemberRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE7ADB1E658606004B200E /* KFMemberRepository.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,16 @@
 		1FAE7ABB1E64662A004B200E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FAE7ABD1E64662A004B200E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FAE7ABE1E64662A004B200E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1FAE7AC01E64662A004B200E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1FAE7AC11E64662A004B200E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1FAE7AC41E64662A004B200E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FAE7AC61E64662A004B200E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FAE7AC91E64662A004B200E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FAE7ACB1E64662A004B200E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FAE7AD11E646710004B200E /* KFListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFListViewController.h; sourceTree = "<group>"; };
+		1FAE7AD21E646710004B200E /* KFListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFListViewController.m; sourceTree = "<group>"; };
+		1FAE7AD71E64FAFF004B200E /* KFCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFCustomTableViewCell.h; sourceTree = "<group>"; };
+		1FAE7AD81E64FAFF004B200E /* KFCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFCustomTableViewCell.m; sourceTree = "<group>"; };
+		1FAE7ADA1E658606004B200E /* KFMemberRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFMemberRepository.h; sourceTree = "<group>"; };
+		1FAE7ADB1E658606004B200E /* KFMemberRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFMemberRepository.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,12 @@
 			children = (
 				1FAE7ABD1E64662A004B200E /* AppDelegate.h */,
 				1FAE7ABE1E64662A004B200E /* AppDelegate.m */,
-				1FAE7AC01E64662A004B200E /* ViewController.h */,
-				1FAE7AC11E64662A004B200E /* ViewController.m */,
+				1FAE7ADA1E658606004B200E /* KFMemberRepository.h */,
+				1FAE7ADB1E658606004B200E /* KFMemberRepository.m */,
+				1FAE7AD11E646710004B200E /* KFListViewController.h */,
+				1FAE7AD21E646710004B200E /* KFListViewController.m */,
+				1FAE7AD71E64FAFF004B200E /* KFCustomTableViewCell.h */,
+				1FAE7AD81E64FAFF004B200E /* KFCustomTableViewCell.m */,
 				1FAE7AC31E64662A004B200E /* Main.storyboard */,
 				1FAE7AC61E64662A004B200E /* Assets.xcassets */,
 				1FAE7AC81E64662A004B200E /* LaunchScreen.storyboard */,
@@ -105,6 +115,7 @@
 		1FAE7AAF1E646628004B200E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KF;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = KifApp;
 				TargetAttributes = {
@@ -151,8 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FAE7AC21E64662A004B200E /* ViewController.m in Sources */,
 				1FAE7ABF1E64662A004B200E /* AppDelegate.m in Sources */,
+				1FAE7AD91E64FAFF004B200E /* KFCustomTableViewCell.m in Sources */,
+				1FAE7AD31E646710004B200E /* KFListViewController.m in Sources */,
+				1FAE7ADC1E658606004B200E /* KFMemberRepository.m in Sources */,
 				1FAE7ABC1E64662A004B200E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

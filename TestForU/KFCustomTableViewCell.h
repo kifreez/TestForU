@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface KFCustomTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *title;
 
 @end

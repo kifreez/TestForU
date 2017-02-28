@@ -10,4 +10,8 @@
 
 @interface KFMemberRepository : NSObject
 
+- (void)addName:(NSString*)string;
+- (void)deleteName:(NSUInteger)index;
+- (NSString*)getName:(NSUInteger)indexPath;
+- (NSInteger)getCount;
 @end
