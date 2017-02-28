@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  KFListViewController.h
 //  TestForU
 //
 //  Created by Kif on 27.02.17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface KFListViewController : UIViewController
 
 @end
-
